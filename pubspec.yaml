@@ -1,0 +1,27 @@
+name: video_library
+description: A Flutter video library and player app with a searchable grid/list gallery and a custom video player.
+
+publish_to: 'none' # since this is not published
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  video_player: ^2.8.1
+  shared_preferences: ^2.0.15
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+   - assets/videos/
+   - assets/thumbnails/
+
